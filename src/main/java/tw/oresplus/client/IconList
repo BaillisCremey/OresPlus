@@ -1,1 +1,16 @@
+package tw.oresplus.client;
 
+public class IconHandler
+{
+    public Hashtable<Integer, IIcon> icons = new Hashtable<Integer, IIcon>();
+    
+    public void createTexture()
+    {
+        
+    }
+    
+    public IIcon getIcon(int meta, String name)
+    {
+        
+    }
+}
