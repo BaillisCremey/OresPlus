@@ -235,6 +235,12 @@ public class BlockOre extends BlockCore {
 		}
 		return stackSize;
 	}
+	
+    @Override
+    public IIcon getIcon(int side, int meta)
+    {
+        
+    }
 
 	@Override
     public void harvestBlock(World world, EntityPlayer player, int x, int y, int z, int meta) {
